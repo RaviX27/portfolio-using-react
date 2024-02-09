@@ -4,6 +4,7 @@ import Sidebar from './Sidebar';
 import AboutSection from './AboutSection';
 import CareerTimeline from './CareerTimeline';
 import timelineElements from "./timelineElement";
+import SkillsSection from './SkillSection';
 import './App.css';
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <div className='main-container'>
         <AboutSection />
         <CareerTimeline timelineElements={timelineElements} />
+        <SkillsSection/>
       </div>
     </div>
   );

@@ -8,8 +8,8 @@ import { ReactComponent as WorkIcon } from "./work.svg";
 import { ReactComponent as SchoolIcon } from "./school.svg";
 
 const CareerTimeline = ({ timelineElements }) => {
-  let workIconStyles = { background: "#06D6A0" };
-  let schoolIconStyles = { background: "#06D6A0" };
+  let workIconStyles = { background: "#0ef" };
+  let schoolIconStyles = { background: "#0ef" };
 
   return (
     <section>

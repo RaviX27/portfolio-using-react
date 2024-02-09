@@ -8,15 +8,15 @@ const Sidebar = () => {
       <div className='sidebar-content'>
         <h3>Hello, I'm</h3>
         <h1 className='name'>Umanda Ravimal</h1>
-        <h3>I am a <span>Software Engineer</span></h3>
+        <h3>I am an <span>ICT Undergraduate</span></h3>
         <div className='social-media'>
           <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebook} className="facebook-icon" />
           </a>
-          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/umandaravimal" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} className="linkedin-icon" />
           </a>
-          <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/RaviX27" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faGithub} className="github-icon"  />
           </a>
         </div>
