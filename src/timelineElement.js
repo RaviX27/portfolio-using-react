@@ -25,6 +25,15 @@ let timelineElements = [
     date: "March 2020 - December 2020",
     icon: "school",
   },
+  {
+    id: 4,
+    title: "Advanced Level",
+    location: "Bandaranayake Navodya School",
+    description:
+      "Studied technology at Ehetuwewa Bandaranayake Navodya School, 2019. Achieved 3 B grades in Science for Technology, Engineering Technology, and ICT",
+    date: "May 2012 - August 2019",
+    icon: "school",
+  },
 ];
 
 export default timelineElements;
