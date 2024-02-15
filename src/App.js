@@ -7,6 +7,7 @@ import timelineElements from "./timelineElement";
 import SkillsSection from './SkillSection';
 import ProjectsSection from './ProjectsSection';
 import ContactSection from './ContactSection';
+import { Element } from 'react-scroll';
 import './App.css';
 
 const App = () => {
@@ -17,11 +18,21 @@ const App = () => {
         <Sidebar />
       </div>
       <div className='main-container'>
-        <AboutSection />
-        <CareerTimeline timelineElements={timelineElements} />
-        <SkillsSection/>
-        <ProjectsSection/>
-        <ContactSection/>
+        <Element name="about-section">
+          <AboutSection />
+        </Element>
+        <Element name="career-timeline">
+          <CareerTimeline timelineElements={timelineElements} />
+        </Element>
+        <Element name="skills-section">
+          <SkillsSection/>
+        </Element>
+        <Element name="projects-section">
+          <ProjectsSection/>
+        </Element>
+        <Element name="contact-section">
+          <ContactSection/>
+        </Element>
       </div>
     </div>
   );

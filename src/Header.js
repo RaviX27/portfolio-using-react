@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
@@ -7,11 +8,51 @@ const Header = () => {
         <a href="#" className="logo">Portfolio.</a>
       </div>
       <div className="nav-options">
-        <a href="#" className='active'>About</a>
-        <a href="#">Career</a>
-        <a href="#">Skill</a>
-        <a href="#">Project</a>
-        <a href="#">Contact Me</a>
+        <Link
+          to="about-section"
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust the offset as per your need
+          duration={500}
+        >
+          About
+        </Link>
+        <Link
+          to="career-timeline"
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust the offset as per your need
+          duration={500}
+        >
+          Career
+        </Link>
+        <Link
+          to="skills-section"
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust the offset as per your need
+          duration={500}
+        >
+          Skill
+        </Link>
+        <Link
+          to="projects-section"
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust the offset as per your need
+          duration={500}
+        >
+          Project
+        </Link>
+        <Link
+          to="contact-section"
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust the offset as per your need
+          duration={500}
+        >
+          Contact Me
+        </Link>
       </div>
     </div>
   );
