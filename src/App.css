@@ -120,6 +120,7 @@ section {
   color: #fff;
 
 }
+
 .section-title{
   text-align: center;
   margin-top: 25px;
@@ -236,4 +237,51 @@ span{
   margin-top: 10px;
   text-align: center;
   font-weight: bold;
+}
+
+.contact {
+  margin-top: 40px;
+}
+
+.contact .section-title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.contact-box {
+  padding: 20px;
+  background-color: #13171f;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-around;
+  transition: all 0.3s ease;
+}
+
+.contact-box:hover {
+  transform: translateY(-5px);
+}
+
+.contact-icon {
+  font-size: 30px;
+  color: #0ef;
+}
+
+.contact-content {
+  font-size: 16px;
+  text-align: center;
+  color: #fff; /* Set content color to white */
+}
+.contact-link {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

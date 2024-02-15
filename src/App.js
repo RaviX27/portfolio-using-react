@@ -6,6 +6,7 @@ import CareerTimeline from './CareerTimeline';
 import timelineElements from "./timelineElement";
 import SkillsSection from './SkillSection';
 import ProjectsSection from './ProjectsSection';
+import ContactSection from './ContactSection';
 import './App.css';
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
         <CareerTimeline timelineElements={timelineElements} />
         <SkillsSection/>
         <ProjectsSection/>
+        <ContactSection/>
       </div>
     </div>
   );
