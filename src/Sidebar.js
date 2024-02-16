@@ -28,6 +28,7 @@ const Sidebar = () => {
 
   return (
     <div className='sidebar'>
+      <div className='line'></div>
       <div className='sidebar-content'>
         <h3>Hello, I'm</h3>
         <h1 className='name'>Umanda Ravimal</h1>

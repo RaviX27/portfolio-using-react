@@ -1,7 +1,9 @@
 import React from 'react';
 import cancerImage from "./Canser predict img.png";
-import fileCompImage from "./File Comp img.jpg"
-import spamImage from "./spam detect img.jpg"
+import fileCompImage from "./File Comp img.jpg";
+import spamImage from "./spam detect img.jpg";
+import fashionImage from "./fashion website.PNG";
+import petImage from "./pet shop.jpg";
 
 const ProjectsSection = () => {
   const projects = [
@@ -22,6 +24,18 @@ const ProjectsSection = () => {
       name: 'Multi-Language Spam Filter',
       imageUrl: spamImage,
       githubLink: 'https://github.com/RaviX27/Multilingual-Spam-Detector'
+    },
+    {
+      id: 4,
+      name: 'E-Commerce Fasion Website',
+      imageUrl: fashionImage,
+      githubLink: 'https://github.com/RaviX27/E-Commerce-Fashion-Website-Using-MERN-'
+    },
+    {
+      id: 5,
+      name: 'Pet Shop Manegment System',
+      imageUrl: petImage,
+      githubLink: 'https://github.com/PetShop-ProjectSE/Pet_Shop_MG_System'
     }
   ];
 
