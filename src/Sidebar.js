@@ -1,8 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+import Typed from 'typed.js';
 
 const Sidebar = () => {
+  useEffect(() => {
+
+    const options = {
+      strings: ['ICT Undergraduate', 'AI Enthusiast'],
+      typeSpeed: 100,
+      backSpeed:100,
+      loop: true
+    };
+    const typed = new Typed('.multiple-text', options);
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
 
   const handleDownloadCV = () => {
     const downloadLink = document.createElement('a');
@@ -16,7 +31,7 @@ const Sidebar = () => {
       <div className='sidebar-content'>
         <h3>Hello, I'm</h3>
         <h1 className='name'>Umanda Ravimal</h1>
-        <h3>I am an <span>ICT Undergraduate</span></h3>
+        <h3>I am an <span className='multiple-text'></span></h3>
         <div className='social-media'>
           <a href="https://www.facebook.com//umanda.wanninayake" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faFacebook} className="facebook-icon" />

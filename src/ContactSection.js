@@ -7,7 +7,7 @@ const ContactMeSection = () => {
     <section className="contact">
       <h2 className="section-title"><span>Contact </span>Me</h2>
       <div className="contact-grid">
-        <ContactBox icon={faMapMarkerAlt} content="Athathanapola, Ehetuwewa, Galgamuwa" />
+        <ContactBox icon={faMapMarkerAlt} content="Galgamuwa, Sri Lanka" />
         <ContactBox icon={faEnvelope} content="Umandaravimal@gmail.com" href="mailto:Umandaravimal@gmail.com" />
         <ContactBox icon={faPhone} content="+94 771 631 532" href="tel:+94771631532" />
       </div>

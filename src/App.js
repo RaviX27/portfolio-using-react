@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Header from './Header';
 import Sidebar from './Sidebar';
 import AboutSection from './AboutSection';
@@ -8,9 +8,38 @@ import SkillsSection from './SkillSection';
 import ProjectsSection from './ProjectsSection';
 import ContactSection from './ContactSection';
 import { Element } from 'react-scroll';
+import ScrollReveal from 'scrollreveal';
 import './App.css';
 
 const App = () => {
+  useEffect(() => {
+    ScrollReveal().reveal('.section-title', {
+      delay: 300,
+      distance: '20px',
+      origin: 'bottom',
+      opacity: 0,
+      easing: 'cubic-bezier(0.5, 0, 0, 1)',
+    });
+
+    ScrollReveal().reveal('.about-content, .career-timeline, .skills, .projects, .contact', {
+      delay: 300,
+      distance: '20px',
+      origin: 'bottom',
+      opacity: 0,
+      easing: 'cubic-bezier(0.5, 0, 0, 1)',
+      interval: 200, // Delay between each element
+    });
+
+    ScrollReveal().reveal('.vertical-timeline-element, .skill-box, .project-box, .contact-box', {
+      delay: 300,
+      distance: '20px',
+      origin: 'bottom',
+      opacity: 0,
+      easing: 'cubic-bezier(0.5, 0, 0, 1)',
+      interval: 200, // Delay between each element
+    });
+  }, []);
+
   return (
     <div className="app">
       <Header />

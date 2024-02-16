@@ -60,6 +60,12 @@ body {
 
 .home-img img{
   max-width: 220px;
+  animation: jump 1.5s infinite alternate;
+}
+@keyframes jump {
+  50% {
+    transform: translateY(-10px);
+  }
 }
 .card{
   position: fixed;
