@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio-using-react/static/css/main.e037fe84.css",
+    "main.js": "/portfolio-using-react/static/js/main.16e28d1c.js",
+    "static/js/787.2dcca737.chunk.js": "/portfolio-using-react/static/js/787.2dcca737.chunk.js",
+    "static/media/fashion website.PNG": "/portfolio-using-react/static/media/fashion website.01b901d175955b1275d9.PNG",
+    "static/media/Canser predict img.png": "/portfolio-using-react/static/media/Canser predict img.5b9cbffeaaa1f6cf16f6.png",
+    "static/media/pet shop.jpg": "/portfolio-using-react/static/media/pet shop.e96164d835dffcd3e6e3.jpg",
+    "static/media/File Comp img.jpg": "/portfolio-using-react/static/media/File Comp img.822e2ced920eeb45e9e5.jpg",
+    "static/media/spam detect img.jpg": "/portfolio-using-react/static/media/spam detect img.d24733e7abfbda66082e.jpg",
+    "static/media/school.svg": "/portfolio-using-react/static/media/school.a41655f6d5350015803153c7410cef6a.svg",
+    "static/media/work.svg": "/portfolio-using-react/static/media/work.3710b62484ed638074240e99317c6c60.svg",
+    "index.html": "/portfolio-using-react/index.html",
+    "main.e037fe84.css.map": "/portfolio-using-react/static/css/main.e037fe84.css.map",
+    "main.16e28d1c.js.map": "/portfolio-using-react/static/js/main.16e28d1c.js.map",
+    "787.2dcca737.chunk.js.map": "/portfolio-using-react/static/js/787.2dcca737.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e037fe84.css",
+    "static/js/main.16e28d1c.js"
+  ]
+}
